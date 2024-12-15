@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="./style.css">
 
     <!-- Yandex Games SDK -->
-    <script src="/sdk.js"></script>
+    <script src="https://yandex.ru/games/sdk/v2"></script>
 
     <style>
         /* Убираем выделение по нажатию клавиш */
@@ -178,7 +178,7 @@
 
         function LocalHost() {
             var host = window.location.hostname;
-            if (host == "localhost" || host == "127.0.0.1")
+            if (host == "localhost" || host == "127.0.0.1" || host == "github.com")
                 return true;
             else return false;
         }
